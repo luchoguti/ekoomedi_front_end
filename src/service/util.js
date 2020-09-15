@@ -1,5 +1,5 @@
-export const url_host_back = 'http://127.0.0.1:8000/api/';
-
+//export const url_host_back = 'http://127.0.0.1:8000/api/';
+export const url_host_back = 'https://ekoomediabackend.herokuapp.com/api/';
 export const closeModal = () =>{
     let x = document.getElementsByClassName("modal");
     var i;
