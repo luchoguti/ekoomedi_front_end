@@ -1,0 +1,46 @@
+.form_travel{
+    padding: 4em;
+}
+.col-6{
+    width: 47%;
+    display: inline-block;
+    padding: 1em;
+}
+input{
+    width: 100%;
+    border: 1px solid;
+    height: 1em;
+    padding: 0.9em;
+}
+.btn-success{
+    background-color: green;
+    color: white;
+    border: 2px solid;
+    width: 100%;
+    height: 3em;
+    cursor: pointer;
+}
+.btn-success:hover{
+    opacity: 0.5;
+}
+.col-12{
+    width: 100%;
+    display: inline-block;
+    padding: 1em;
+}
+.center{
+    text-align: center;
+}
+.error_msg{
+    color: red;
+}
+.error_request{
+    color: red;
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .col-6{
+        width: 100%;
+    }
+}
